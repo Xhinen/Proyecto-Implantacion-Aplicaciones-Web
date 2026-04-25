@@ -114,7 +114,7 @@ nav ul a:hover {
     font-size: 18px;
 }
 
-/* PRODUCTS SECTION */
+/* PRODUCTOS DESTACADOS */
 .productos {
     max-width: 1100px;
     margin: 50px auto;
@@ -229,4 +229,107 @@ nav ul a:hover {
 
 .tarjeta-body a:hover {
     background-color: #e94560;
+}
+
+/* POR QUE ELEGIRNOS */
+.por-que {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.por-que h2 {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+.por-que h2 span {
+    color: #e94560;
+}
+
+.ventajas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ventaja {
+    background-color: #16213e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 25px 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.ventaja .icono {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.ventaja h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #e94560;
+}
+
+.ventaja p {
+    font-size: 12px;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+/* BANNER DE CONTACTO */
+.cta-banner {
+    background-color: #e94560;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-banner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-banner p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.cta-banner a {
+    background-color: white;
+    color: #e94560;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cta-banner a:hover {
+    background-color: #f5f5f5;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1a1a2e;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+}
+
+footer a {
+    color: #e94560;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
