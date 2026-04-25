@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* MENU */
+nav {
+    background-color: #1a1a2e;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #e94560;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul a:hover {
+    color: #e94560;
+    text-decoration: underline;
+}
+
+/* HEADER / BANNER */
+.banner {
+    background-color: #16213e;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner h1 span {
+    color: #e94560;
+}
+
+.banner p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner a {
+    background-color: #e94560;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 8px;
+}
+
+.banner a:hover {
+    background-color: #c73652;
+}
+
+.banner a.btn-outline {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.banner a.btn-outline:hover {
+    background-color: white;
+    color: #16213e;
+}
+
+/* BARRA DE ESTADISTICAS */
+.info-bar {
+    background-color: #e94560;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.info-bar div {
+    text-align: center;
+    font-size: 14px;
+}
+
+.info-bar div strong {
+    display: block;
+    font-size: 18px;
+}
