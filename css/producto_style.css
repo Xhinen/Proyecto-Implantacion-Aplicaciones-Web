@@ -84,14 +84,14 @@ nav ul a:hover {
 
 .imagen-principal {
     width: 100%;
-    max-width: 300px; /* Ajusta este valor al tamaño que prefieras */
+    max-width: 300px;
     height: auto;
-    object-fit: contain; /* Evita que la imagen se deforme */
+    object-fit: contain;
     margin: 20px auto;
     display: block;
 }
 
-/* REEMPLAZA/ACTUALIZA TUS MINIATURAS CON ESTO: */
+
 .miniaturas {
     display: flex;
     gap: 10px;
@@ -105,8 +105,8 @@ nav ul a:hover {
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
-    width: 60px; /* Ancho fijo para las cajas miniatura */
-    height: 60px; /* Alto fijo para las cajas miniatura */
+    width: 60px; 
+    height: 60px; 
     display: flex;
     align-items: center;
     justify-content: center;
