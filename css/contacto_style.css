@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #1a1a2e;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #e94560;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul a:hover {
+    color: #e94560;
+    text-decoration: underline;
+}
+
+/* CABECERA PAGINA */
+.cabecera-pagina {
+    background-color: #16213e;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cabecera-pagina h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cabecera-pagina h1 span {
+    color: #e94560;
+}
+
+.cabecera-pagina p {
+    font-size: 15px;
+    color: #ccc;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* COLUMNA IZQUIERDA - INFO */
+.info-contacto {
+    flex: 1;
+}
+
+.info-contacto h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #e94560;
+    padding-left: 10px;
+}
+
+.metodo-contacto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.metodo-contacto .icono {
+    font-size: 28px;
+}
+
+.metodo-contacto .texto h4 {
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+
+.metodo-contacto .texto p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* COLUMNA DERECHA - FORMULARIO */
+.formulario-wrap {
+    flex: 1.5;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.formulario-wrap h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.formulario-wrap p.subtitulo {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* CAMPOS */
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.campo label .obligatorio {
+    color: #e94560;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    border-color: #e94560;
+}
+
+.campo input.error,
+.campo select.error,
+.campo textarea.error {
+    border-color: red;
+    background-color: #fff5f5;
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.mensaje-error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.mensaje-error.visible {
+    display: block;
+}
+
+/* FILA DE DOS COLUMNAS */
+.fila-doble {
+    display: flex;
+    gap: 15px;
+}
+
+.fila-doble .campo {
+    flex: 1;
+}
+
+/* CHECKBOX */
+.campo-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.campo-check input[type="checkbox"] {
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.campo-check label {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.campo-check label a {
+    color: #e94560;
+}
+
+/* BOTON ENVIAR */
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #c73652;
+}
+
+/* MENSAJE EXITO */
+#exito {
+    display: none;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#exito .icono-exito {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#exito h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+#exito p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#exito a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #1a1a2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#exito a:hover {
+    background-color: #e94560;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1a1a2e;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #e94560;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
