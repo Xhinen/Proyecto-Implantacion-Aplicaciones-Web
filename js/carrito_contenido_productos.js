@@ -1,3 +1,4 @@
+// Cambios de imagen del producto
 function cambiarImagen(ruta) {
 	document.getElementById('imagen-principal').src = ruta;
 }
